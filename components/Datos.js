@@ -26,7 +26,7 @@ export default function Datos() {
     }
     setTextAprob('Todo bien\nenviando peticion');
     
-    // return true; // para que no se ejecute aun
+    return true; // para que no se ejecute aun
 
     fetch('http://127.0.0.1/Proyecto-UPTAEB-T2/api_login', {
       method: 'POST',
